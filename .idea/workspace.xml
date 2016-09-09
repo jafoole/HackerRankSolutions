@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd2997fc-ba83-4877-aece-d4234b096d4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/HackerRankSols.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/HackerRankSols.java" afterPath="$PROJECT_DIR$/src/HackerRankSols.java" />
     </list>
     <ignored path="HackerRankSolutions.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +27,8 @@
       <file leaf-file-name="HackerRankSols.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/HackerRankSols.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13901761">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.27803522">
+              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -428,8 +428,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/HackerRankSols.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13901761">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.27803522">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding />
         </state>
       </provider>
