@@ -69,6 +69,57 @@ public class HackerRankSols {
     }
 
 
+/*
+  Insert Node at a given position in a linked list
+  head can be NULL
+  First element in the linked list is at position 0
+  Node is defined as
+  class Node {
+     int data;
+     Node next;
+  }
+*/
+
+
+    Node InsertNth(Node head, int data, int position) {
+        // This is a "method-only" submission.
+        // You only need to complete this method.
+
+        // created new node.
+        Node theNewNode = new Node();
+        theNewNode.data = data;
+        theNewNode.next = null;
+
+        // check to see if list is empty.
+        if(head == null) {
+            head = new Node();
+        }
+
+
+        if(position == 0){
+            theNewNode.next = head;
+            head = theNewNode;
+            return head;
+        }
+
+
+        Node previous = null;
+        Node current = head;
+        int i = 0;
+
+        // advancing so that when current goes to next, previous becomes current. And i increases.
+        while(current != null && i < position){
+            i++;
+            previous = current;
+            current = current.next;
+        }
+
+        theNewNode.next = previous.next;
+        previous.next = theNewNode;
+        return head;
+    }
+
+
 
 
 
